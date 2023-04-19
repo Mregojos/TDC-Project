@@ -13,7 +13,7 @@
 
 ## Tasks
 ```sh
-Clone the repository
+# Clone the repository
 git clone https://github.com/Mregojos/TDC-Project
 cd TDC-Project
 

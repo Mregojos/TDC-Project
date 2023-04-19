@@ -2,6 +2,7 @@
 
 ## Objective
 * Build a classification model to classify Tetosterone Deficiency
+* Explore and visualize the data 
 * Build and deploy a web app to classify Testosterone Deficiency
 
 ## Tech Stack

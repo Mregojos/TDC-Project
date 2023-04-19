@@ -6,3 +6,4 @@ matplotlib
 joblib
 scikit-learn
 seaborn
+streamlit_option_menu

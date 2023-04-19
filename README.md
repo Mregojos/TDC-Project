@@ -22,5 +22,25 @@ docker build -t tdp-web-app .
 docker run -d --name tdp-web-app -p 8501:8501 tdp-web-app
 ```
 
+```sh
+# To run streamlit app (with volume and jupyterlab
+# streamlit
+# cd td-classification
+docker build -t streamlit-app .
+docker run -d --name streamlit-app  -p 8501:8501 -v $(pwd):/app streamlit-app 
+
+# jupyterlab
+cd td-classification
+cd jupyterlab-docker
+docker build -t jupyterlab .
+cd ..
+docker run --name jupyterlab -p 8888:8888 -v $(pwd):/app jupyterlab
+
+
+# delete
+docker rm -f streamlit-app
+docker rm -f jupyterlab
+```
+
 ## Reference
 [Testosterone Deficiency Classification Data]()

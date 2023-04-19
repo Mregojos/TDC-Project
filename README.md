@@ -22,6 +22,7 @@ docker build -t tdp-web-app .
 docker run -d --name tdp-web-app -p 8501:8501 tdp-web-app
 ```
 
+
 ```sh
 # To run the web app (with volume) and jupyterlab
 docker build -t tdp-web-app .
@@ -38,6 +39,8 @@ docker run --name jupyterlab -p 8888:8888 -v $(pwd):/app jupyterlab
 docker rm -f tdp-web-app
 docker rm -f jupyterlab
 ```
+
+![TDP](https://github.com/Mregojos/TDC-Project/blob/main/images/TDP.png)
 
 ## Reference
 [Testosterone Deficiency Classification Data]()

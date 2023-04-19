@@ -1,6 +1,6 @@
 # Testosterone Deficiency Prediction
 
-## Objetive
+## Objective
 
 ## Tech Stack
 

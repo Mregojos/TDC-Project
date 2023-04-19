@@ -1,7 +1,7 @@
 # Testosterone Deficiency Prediction
 
 ## Objective
-* Build a classification model to classify Tetosterone Deficiency
+* Build a classification model to classify Testosterone Deficiency
 * Explore and visualize the data 
 * Build and deploy a web app to classify Testosterone Deficiency
 
